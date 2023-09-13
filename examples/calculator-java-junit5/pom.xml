@@ -86,6 +86,10 @@
                         <configurationParameters>
                             cucumber.junit-platform.naming-strategy=long
                         </configurationParameters>
+                        <distribution>
+                            <enabled>true</enabled>
+                            <maxLocalExecutors>0</maxLocalExecutors>
+                        </distribution>
                     </properties>
                 </configuration>
             </plugin>
