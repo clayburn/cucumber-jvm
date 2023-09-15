@@ -88,6 +88,19 @@
                     </properties>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.gradle.cucumber.companion</groupId>
+                <artifactId>cucumber-companion-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-cucumber-companion-files</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
